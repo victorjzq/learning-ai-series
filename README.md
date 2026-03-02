@@ -24,12 +24,17 @@ Claude Skill 自动提问 + 整合
 
 ## 使用方式
 
-1. 准备 Notebook A：上传你的方法论资料到 NotebookLM
-2. 准备 Notebook B：上传目标领域资料到 NotebookLM
+1. **准备 Notebook A**：上传你的学习方法论资料到 NotebookLM
+2. **准备 Notebook B**：上传目标领域资料到 NotebookLM
 3. 在 Claude Code 终端运行：
 
 ```bash
-claude "调用如何学习skill，Notebook B链接：[你的链接]，主题：[主题]"
+claude "调用如何学习skill，Notebook A：[方法论链接]，Notebook B：[领域知识链接]，主题：[主题]"
+```
+
+**示例**：
+```bash
+claude "调用如何学习skill，Notebook A：https://notebooklm.google.com/notebook/xxx，Notebook B：https://notebooklm.google.com/notebook/yyy，主题：Transformer架构"
 ```
 
 ## Skill 安装
