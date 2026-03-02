@@ -1,3 +1,12 @@
+---
+name: how-to-learn
+description: Generate structured learning handbooks by combining methodology (Notebook A) with domain knowledge (Notebook B) via NotebookLM + Claude. Use when asked to "learn a topic", "create study guide", "generate learning plan", or "如何学习".
+metadata:
+  author: victorjzq
+  version: "1.0.0"
+  argument-hint: "Notebook A: [URL], Notebook B: [URL], Topic: [name]"
+---
+
 # 如何学习 Skill
 
 > **方法论（A）× 领域知识（B）= 结构化学习手册（C）**
